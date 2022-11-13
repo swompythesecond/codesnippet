@@ -29,6 +29,7 @@ export default {
           codeContent: _codeContent
         }
       )
+      codeSnippetSysthem.checkUpdate = true
       this.RenderCodeSnippet();
 
     },

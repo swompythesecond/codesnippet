@@ -2,7 +2,7 @@ export let codeSnippetSysthem = {
     codeSnippetarray : [
         {
             title: "Code1",
-            codeContent: "if a==b"
+            codeContent: { f: function f() { let stuff = "hi";stuff ++; console.log(stuff); } }.f.toString()
         },
         {
             title: "Code2",
